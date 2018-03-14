@@ -280,8 +280,13 @@ button.top-three:hover{
   background: #acb7c0;
   color: #ffffff;
   border-radius: 0.25em;
-  display: flex;
-  align-items: center;
+  margin-right: 8px;
+}
+.cd-read-more::after, .cd-read-more::before{
+  height: 0;
+  display: block;
+  content: '';
+  clear: both;
 }
 .cd-timeline-content .cd-read-more:hover{
   opacity: .8;
