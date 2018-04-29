@@ -5,14 +5,14 @@
 * @Last Modified time: 2017-08-14 00:28:55
 */
 
-window.onload = function(){
-    $('.h1-blur').css({
-        'animation':'y 2s',
-        'animation-fill-mode':'fowards'
-        });
-    $('.h1-blur1').css('animation-delay','.8s');
-    $('.h1-blur2').css('animation-delay','1.8s');
-}
+// window.onload = function(){
+//     $('.h1-blur').css({
+//         'animation':'y 2s',
+//         'animation-fill-mode':'fowards'
+//         });
+//     $('.h1-blur1').css('animation-delay','.8s');
+//     $('.h1-blur2').css('animation-delay','1.8s');
+// }
 
 // $(document).ready(function(){
 //     /** 按钮动画 **/
