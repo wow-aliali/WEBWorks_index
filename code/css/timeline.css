@@ -125,9 +125,9 @@ button.top-three:hover,button.top-three:focus{
 button.top-three:hover{
   opacity: 0.9;
 }
-#cd-timeline .cd-timeline-block:nth-of-type(-n+3){
+/* #cd-timeline .cd-timeline-block:nth-of-type(-n+3){
   display: none;
-}
+} */
 
 #cd-timeline .cd-timeline-block:nth-of-type(7) .cd-timeline-content > a:last-of-type{
   margin-left: 8px;
