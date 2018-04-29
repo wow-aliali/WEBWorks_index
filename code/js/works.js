@@ -14,16 +14,16 @@ window.onload = function(){
     $('.h1-blur2').css('animation-delay','1.8s');
 }
 
-$(document).ready(function(){
-    /** 按钮动画 **/
-    $('.cd-timeline-content a').mouseenter(function(){
-        $(this).addClass('animated tada');
-    });
-    $('.cd-timeline-content a').mouseleave(function(){
-        $(this).removeClass('animated tada');
-    });
+// $(document).ready(function(){
+//     /** 按钮动画 **/
+//     $('.cd-timeline-content a').mouseenter(function(){
+//         $(this).addClass('animated tada');
+//     });
+//     $('.cd-timeline-content a').mouseleave(function(){
+//         $(this).removeClass('animated tada');
+//     });
 
-    $('.top-three').click(function(){
-        $('#cd-timeline .cd-timeline-block:nth-of-type(-n+3)').slideToggle(600);
-    });
-});
+//     $('.top-three').click(function(){
+//         $('#cd-timeline .cd-timeline-block:nth-of-type(-n+3)').slideToggle(600);
+//     });
+// });
